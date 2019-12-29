@@ -1,4 +1,4 @@
-const check1 = document.querySelector(".checktest"),
+const table = document.querySelector(".filterTable"),
   input = check1.querySelector("input"),
   box = check1.querySelector(".js-box1");
 
@@ -11,7 +11,7 @@ function handleSubmit(){
 }
 
 function init(){
-  check1.addEventListener("click",handleSubmit);
+  table.addEventListener("click",handleSubmit);
 }
 
 init();

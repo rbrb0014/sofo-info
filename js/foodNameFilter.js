@@ -1,5 +1,5 @@
 const inputFoodNameAll = table.querySelector(`th input[name=foodNameall]`),
-  foodNames = table.querySelectorAll(`th input[name=foodName`);
+  foodNames = table.querySelectorAll(`th input[name=foodName]`);
 
 function handleCheckAll() {
   for (i = 0; i < foodNames.length; i++) {
